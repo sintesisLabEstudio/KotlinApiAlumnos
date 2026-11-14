@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Manifiesto principal: declara permisos, tema y actividades de la aplicacion. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tnt.notas"
     android:versionCode="1"
@@ -7,15 +8,14 @@
     <uses-sdk
         android:minSdkVersion="24"
         android:targetSdkVersion="35" />
-
+    <!-- Permiso para realizar solicitudes HTTP a la API. -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <permission
         android:name="com.tnt.notas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.tnt.notas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-
+    <uses-permission android:name="com.tnt.notas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Configuracion general de la aplicacion Android. -->
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -24,8 +24,10 @@
         android:icon="@android:drawable/sym_def_app_icon"
         android:label="Notas"
         android:testOnly="true"
-        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:theme="@style/Theme.Notas"
         android:usesCleartextTraffic="true" >
+
+        <!-- Actividad inicial (menu principal) que lanza la aplicacion. -->
         <activity
             android:name="com.tnt.notas.MainActivity"
             android:exported="true" >
@@ -35,15 +37,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Pantallas para ingresar datos. -->
         <activity android:name="com.tnt.notas.AlumnoActivity" />
         <activity android:name="com.tnt.notas.AsignaturaActivity" />
         <activity android:name="com.tnt.notas.NotaActivity" />
+        <!-- Pantallas para consultar listados y resumen. -->
         <activity android:name="com.tnt.notas.ListadoActivity" />
         <activity
             android:name="com.tnt.notas.ListaAlumnosActivity"
             android:exported="false" />
         <activity
             android:name="com.tnt.notas.ListaAsignaturasActivity"
+            android:exported="false" />
+        <!-- Pantallas adicionales de edicion y resumen. -->
+        <activity
+            android:name="com.tnt.notas.EditarNotaActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.tnt.notas.ResumenActivity"
             android:exported="false" />
 
         <provider

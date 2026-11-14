@@ -1,3 +1,4 @@
+// Configuracion de repositorios para la resolucion de plugins.
 pluginManagement {
     repositories {
         google()
@@ -5,6 +6,7 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+// Configuracion de repositorios para dependencias del proyecto.
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -12,6 +14,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-
+// Nombre del proyecto y modulos incluidos.
 rootProject.name = "codigoKotlin"
-include(":app")
+include(":app")

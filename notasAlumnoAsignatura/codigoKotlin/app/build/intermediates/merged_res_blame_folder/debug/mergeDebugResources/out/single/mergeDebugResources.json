@@ -4,16 +4,16 @@
         "source": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-main-36:\\layout\\activity_nota.xml"
     },
     {
+        "merged": "com.tnt.notas.app-debug-34:/layout_activity_alumno.xml.flat",
+        "source": "com.tnt.notas.app-main-36:/layout/activity_alumno.xml"
+    },
+    {
         "merged": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-debug-34:\\layout_activity_listado.xml.flat",
         "source": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-main-36:\\layout\\activity_listado.xml"
     },
     {
         "merged": "com.tnt.notas.app-debug-34:/layout_activity_lista_alumnos.xml.flat",
         "source": "com.tnt.notas.app-main-36:/layout/activity_lista_alumnos.xml"
-    },
-    {
-        "merged": "com.tnt.notas.app-debug-34:/layout_activity_menu.xml.flat",
-        "source": "com.tnt.notas.app-main-36:/layout/activity_menu.xml"
     },
     {
         "merged": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-debug-34:\\layout_activity_alumno.xml.flat",
@@ -24,11 +24,55 @@
         "source": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-main-36:\\layout\\activity_menu.xml"
     },
     {
+        "merged": "com.tnt.notas.app-debug-34:/layout_activity_resumen.xml.flat",
+        "source": "com.tnt.notas.app-main-36:/layout/activity_resumen.xml"
+    },
+    {
         "merged": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-debug-34:\\layout_activity_asignatura.xml.flat",
         "source": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-main-36:\\layout\\activity_asignatura.xml"
     },
     {
         "merged": "com.tnt.notas.app-debug-34:/layout_activity_lista_asignaturas.xml.flat",
         "source": "com.tnt.notas.app-main-36:/layout/activity_lista_asignaturas.xml"
+    },
+    {
+        "merged": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-debug-34:\\drawable_logo.jpg.flat",
+        "source": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-main-36:\\drawable\\logo.jpg"
+    },
+    {
+        "merged": "com.tnt.notas.app-debug-34:/layout_activity_nota.xml.flat",
+        "source": "com.tnt.notas.app-main-36:/layout/activity_nota.xml"
+    },
+    {
+        "merged": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-debug-34:\\layout_activity_lista_asignaturas.xml.flat",
+        "source": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-main-36:\\layout\\activity_lista_asignaturas.xml"
+    },
+    {
+        "merged": "com.tnt.notas.app-debug-34:/layout_activity_menu.xml.flat",
+        "source": "com.tnt.notas.app-main-36:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "com.tnt.notas.app-debug-34:/layout_activity_listado.xml.flat",
+        "source": "com.tnt.notas.app-main-36:/layout/activity_listado.xml"
+    },
+    {
+        "merged": "com.tnt.notas.app-debug-34:/layout_activity_asignatura.xml.flat",
+        "source": "com.tnt.notas.app-main-36:/layout/activity_asignatura.xml"
+    },
+    {
+        "merged": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-debug-34:\\layout_activity_editar_nota.xml.flat",
+        "source": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-main-36:\\layout\\activity_editar_nota.xml"
+    },
+    {
+        "merged": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-debug-34:\\layout_activity_resumen.xml.flat",
+        "source": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-main-36:\\layout\\activity_resumen.xml"
+    },
+    {
+        "merged": "com.tnt.notas.app-debug-34:/layout_activity_editar_nota.xml.flat",
+        "source": "com.tnt.notas.app-main-36:/layout/activity_editar_nota.xml"
+    },
+    {
+        "merged": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-debug-34:\\layout_activity_lista_alumnos.xml.flat",
+        "source": "C:\\Users\\notebook\\.gradle\\daemon\\9.7.0\\com.tnt.notas.app-main-36:\\layout\\activity_lista_alumnos.xml"
     }
 ]
