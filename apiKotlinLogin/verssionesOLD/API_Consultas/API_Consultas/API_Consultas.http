@@ -1,6 +1,0 @@
-@API_Consultas_HostAddress = http://localhost:5017
-
-GET {{API_Consultas_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
