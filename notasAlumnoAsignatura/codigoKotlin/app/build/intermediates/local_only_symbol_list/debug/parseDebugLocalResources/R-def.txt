@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+id btnActualizar
+id btnAlumno
+id btnAsignatura
+id btnEditar
+id btnGuardar
+id btnListaAlumnos
+id btnListaAsignaturas
+id btnListado
+id btnNota
+id etApellidos
+id etCodigo
+id etNombre
+id etNombres
+id etNota
+id lvAlumnos
+id lvAsignaturas
+id spAlumno
+id spAsignatura
+id spNumero
+id tvCodigo
+id tvId
+id tvListado
+id tvResultado
+layout activity_alumno
+layout activity_asignatura
+layout activity_lista_alumnos
+layout activity_lista_asignaturas
+layout activity_listado
+layout activity_menu
+layout activity_nota

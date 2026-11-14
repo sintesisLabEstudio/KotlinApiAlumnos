@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Notas de alumnos"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btnAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar alumno" />
+
+    <Button
+        android:id="@+id/btnAsignatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar asignatura" />
+
+    <Button
+        android:id="@+id/btnNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar o editar nota" />
+
+    <Button
+        android:id="@+id/btnListado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver listado de notas" />
+    <Button
+        android:id="@+id/btnListaAlumnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar y editar alumnos" />
+    <Button
+        android:id="@+id/btnListaAsignaturas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar y editar asignaturas" />
+
+</LinearLayout>

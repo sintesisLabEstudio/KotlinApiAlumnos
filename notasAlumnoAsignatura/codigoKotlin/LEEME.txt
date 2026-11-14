@@ -1,0 +1,29 @@
+APP ANDROID - NOTAS (Kotlin + Retrofit2 + Corrutinas)
+
+PASOS
+1. En Android Studio: New Project > "Empty Views Activity".
+   Name: Notas     Package name: com.tnt.notas     Language: Kotlin
+2. BORRA lo que crea la plantilla:
+   - app/src/main/java/com/tnt/notas/MainActivity.kt
+   - app/src/main/res/layout/activity_main.xml
+3. Copia el contenido de esta carpeta dentro de tu proyecto:
+   - AndroidManifest.xml         -> reemplaza app/src/main/AndroidManifest.xml
+   - carpeta java/com/tnt/notas  -> app/src/main/java/com/tnt/notas
+   - carpeta res/layout          -> app/src/main/res/layout
+4. Abre app/build.gradle.kts y agrega estas lineas dentro de dependencies { }:
+
+   implementation("com.squareup.retrofit2:retrofit:2.11.0")
+   implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+   implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+   implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
+
+   (Si tu archivo es build.gradle con Groovy, usa comillas simples y sin parentesis:
+    implementation 'com.squareup.retrofit2:retrofit:2.11.0' )
+
+   Luego presiona "Sync Now".
+5. Abre RetrofitClient.kt y revisa BASE_URL:
+   - Emulador:  http://10.0.2.2:5000/
+   - Telefono fisico: IP de tu PC, por ejemplo http://192.168.1.50:5000/
+   (debe terminar con "/")
+6. Deja la API corriendo:  dotnet run --urls http://0.0.0.0:5000
+7. Ejecuta la app.

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.tnt.notas.app-mergeDebugResources-32:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\notebook\\.gradle\\caches\\9.7.0\\transforms\\39019916cc7165b233c922203f345798\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
